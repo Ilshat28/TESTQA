@@ -1,0 +1,203 @@
+{
+	"uuid": "f3aaf6a0-5d81-46fb-a60b-a7c85eb269e4",
+	"historyId": "<описание фичи>.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"start": 1652449406108,
+	"stop": 1652449407357,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю 'Продажи' 'Заказы покупателей'",
+			"start": 1652449406123,
+			"stop": 1652449406170,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Продажи"
+				},
+				{
+					"name": "Парам2",
+					"value": "Заказы покупателей"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Заказы покупателей'",
+			"start": 1652449406175,
+			"stop": 1652449406204,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы покупателей"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я выбираю пункт контекстного меню с именем 'СписокСкопировать' на элементе формы с именем \"Список\"",
+			"start": 1652449406209,
+			"stop": 1652449406221,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СписокСкопировать"
+				},
+				{
+					"name": "Парам2",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Заказ покупателя (создание)'",
+			"start": 1652449406226,
+			"stop": 1652449406670,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ покупателя (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в табличном документе 'ТаблицаДляПросмотра' я перехожу к ячейке \"R1C1\"",
+			"start": 1652449406674,
+			"stop": 1652449406718,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ТаблицаДляПросмотра"
+				},
+				{
+					"name": "Парам2",
+					"value": "R1C1"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаПровестиИЗакрыть'",
+			"start": 1652449406722,
+			"stop": 1652449406738,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаПровестиИЗакрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я жду закрытия окна 'Заказ покупателя (создание)' в течение 20 секунд",
+			"start": 1652449406742,
+			"stop": 1652449407345,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ покупателя (создание)"
+				},
+				{
+					"name": "Парам2",
+					"value": 20
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "<описание сценария>"
+		},
+		{
+			"name": "feature",
+			"value": "<описание фичи>"
+		},
+		{
+			"name": "suite",
+			"value": "<описание фичи>"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Fiches"
+		},
+		{
+			"name": "host",
+			"value": "LAPTOP-TE9V9EFF"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}
